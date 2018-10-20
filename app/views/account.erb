@@ -12,7 +12,9 @@
       <p><%=Helpers.current_user(session).balance%></p><br>
 
       <h4><a href="/logout">Log Out</a></h4>
-    <% end %>
+    <% else %>
+
+      <a href="/">Please click here to log in</a>
 
 
   </body>
